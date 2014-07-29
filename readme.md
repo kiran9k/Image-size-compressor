@@ -28,3 +28,15 @@
 
 - Maintains the original aspect ratio of image . 
 
+###################################################################################################
+
+	Uses:
+
+- This will be usefull for people who are tired of uploading /sharing large size images to their friends 
+
+- This can be used for reducing the size of images which need to be mailed .
+
+- Can be used for bloggers to get all their image in required size 
+
+
+
