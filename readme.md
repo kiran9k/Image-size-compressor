@@ -7,9 +7,12 @@
 ###################################################################################################
 
 
+
 - Image Size  Compressor compresses an image to produce an image of smaller file size than original 
 
 - It compresses by either scaling or by changing the quality of image .
+
+
 
 ###################################################################################################
 
@@ -28,6 +31,8 @@
 
 - Maintains the original aspect ratio of image . 
 
+
+
 ###################################################################################################
 
 	Uses:
@@ -40,3 +45,13 @@
 
 
 
+
+###################################################################################################
+
+	Usage:
+
+
+- One can either run the program written in java.
+
+- Or can even call the jar file thru command line : 
+	java -jar image_size_compressor.jar
