@@ -55,3 +55,5 @@
 
 - Or can even call the jar file thru command line : 
 	java -jar image_size_compressor.jar
+
+- Or use the Graphical User Interface  : image_size_compressor_GUI.jar

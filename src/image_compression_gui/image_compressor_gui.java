@@ -61,11 +61,12 @@ public class image_compressor_gui {
 	Font f=new Font("arial",Font.PLAIN,20);//20
 	Font h=new Font("arial",Font.PLAIN,25);//25
 	 JTextPane display;//log writes
+	 JFrame main_frame;///main back groudn frame
 	public  image_compressor_gui()
 	{
 		//main frame		
 	
-		JFrame main_frame= new JFrame("Image Size Compressor");
+		main_frame= new JFrame("Image Size Compressor");
 		
 		main_frame.setPreferredSize(new Dimension(width,height));
 		main_frame.setResizable(false);
@@ -157,6 +158,7 @@ public class image_compressor_gui {
 				{
 					//TODO CLose the GUI
 //					/System.out.println("cloesd");
+					main_frame.dispose();
 				}
 			}	
 			
@@ -307,7 +309,7 @@ public class image_compressor_gui {
 				  	int state = itemEvent.getStateChange();
 				  	if(state==ItemEvent.SELECTED)
 				  	{
-				  		System.out.println(String.valueOf(itemEvent.getItem()).replace(".", ""));
+				  		//System.out.println(String.valueOf(itemEvent.getItem()).replace(".", ""));
 				  		input_image_type=String.valueOf(itemEvent.getItem()).replace(".","");
 				  	}
 			        /*System.out.println((state == ItemEvent.SELECTED) ? "Selected" : "Deselected");
