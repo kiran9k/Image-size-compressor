@@ -55,29 +55,13 @@ public class config_reader {
 			 System.out.println("Specified input folder doesnt exist ");
 			 return false;
 		 }
-		 if(prop.get(1).contains("jpg")||prop.get(1).contains("png")||prop.get(1).contains("gif"))
-		 {
-			 ;
-		 }
-		 else
-		 {
-			 System.out.println("incorrect file type menitioned in input file type");
-			 return false;
-		 }
+		
 		 if(!new File(prop.get(2)).exists())
 		 {
 			 System.out.println("Specified output folder doesnt exist ");
 			 return false;
 		 }
-		 if(prop.get(3).contains("jpg")||prop.get(3).contains("jpeg"))
-		 {
-			 ;
-		 }
-		 else
-		 {
-			 System.out.println("incorrect file type menitioned in input file type");
-			 //return false;
-		 }
+		
 		 return true;
 	 }
 }
